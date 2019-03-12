@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+#moviesUL {
+    list-style: none;
+}
+.smlPosterBox img {
+    width: 75px;
+}
+
+#moviesUL{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.liItemBox {
+    text-align: center;
+    margin: 10px;
+}
+
+#detailsUL {
+    list-style: none;
+}
+#detailsDiv {
+    display: flex;
+    justify-content: center;
+}
+#detailsDiv > div {
+    text-align: center;
+}
+#detailsUL li {
+    margin: 25px;
+}
+.smlPosterBox {
+    cursor: pointer;
+}
+.smlPosterBox p {
+    font-size: .7em;
+}
+.background {
+    background-color: black;
+    font-size: 2em;
+}
+.background span {
+    font-size: 1.5em;
+}
