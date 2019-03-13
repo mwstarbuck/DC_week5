@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <button id="addStoreBtn">Add Store</button>
+    <input id="storeTxtBox" type="text">
+    <ul id="storesUL">
+
+    </ul>
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBS1rJA-IcNUQgplCRymxC7P6lYYO082iA",
+            authDomain: "grocery-app-559bc.firebaseapp.com",
+            databaseURL: "https://grocery-app-559bc.firebaseio.com",
+            projectId: "grocery-app-559bc",
+            storageBucket: "grocery-app-559bc.appspot.com",
+            messagingSenderId: "43352782689"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="js/script.js"></script>
+    </script>
+    <script src="js/store.js"></script>
+</body>
+
+</html>

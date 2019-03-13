@@ -1,0 +1,13 @@
+#storesUL {
+    list-style: none;
+}
+.storeBox {
+    text-align: center;
+    background-color: indigo;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.delBtn {
+    float: right;
+}
