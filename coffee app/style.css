@@ -1,0 +1,124 @@
+body {
+    background-image: url("images/bean2.jpg")
+}
+div {
+    border-radius: 25px;
+    opacity: 0.9;
+}
+#coffeeUL {
+    list-style: none;
+    /* width: 50%; */
+}
+#header {
+    max-width: 100%;
+    text-align: center;
+    border: 3px solid rgb(100, 55, 13);
+    background-color: rgb(168, 98, 32);
+    color: wheat;
+    font-size: 1.3em;
+}
+#header h3 {
+    padding-bottom: 5px;
+    margin-top: 0;
+    padding-top: 15px;
+}
+#header h1 {
+    padding-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+#container {
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orderBox {
+    background-color: rgb(168, 98, 32);
+    box-shadow: 1px 3px 6px rgb(73, 73, 73);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 20px 20px -20px;
+    /* border: 1px solid rgb(100, 55, 13); */
+    color: wheat;
+    opacity: 0.9;
+
+}
+.orderBox p {
+    padding: 0 35px;
+}
+#addOrderDiv {
+    color: wheat;
+    width: 50%;
+    margin: 10px 20px 0 20px;
+    border: 3px solid rgb(168, 98, 32);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(100, 55, 13);
+}
+#findBox {
+    margin: 10px 20px 0 20px;
+    width: 50%;
+    border: 3px solid rgb(168, 98, 32);
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(100, 55, 13);
+}
+
+button, input {
+    margin: 20px;
+}
+#deleteBox {
+    margin: 20px 20px 0 20px;
+    width: 50%;
+    border: 3px solid rgb(168, 98, 32);
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(100, 55, 13);
+}
+#viewAllBox {
+    display: flex;
+    margin: 20px 20px -10px 20px;
+    width: 50%;
+    border: 3px solid rgb(168, 98, 32);
+    justify-content: center;
+    background-color: rgb(100, 55, 13);
+}
+#coffeeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+div h4 {
+    float: left;
+}
+#orderHead {
+    margin-left: 46%;
+    color:  rgb(100, 55, 13)
+}
+#line {
+    height: 2px;
+    background-color: rgb(168, 98, 32);
+    margin: 0 25%;
+}
+button {
+    border-radius: 40px;
+    background-color: burlywood;
+}
+#headLine {
+    height: 2px;
+    background-color: rgb(100, 55, 13);
+    margin: 0 30%;
+    padding: 0;
+}
+input {
+     border: 2px solid rgb(59, 135, 158);
+     width: 22%;
+}
+#deleteByEmailBtn {
+    border: 2px solid red;
+
+}

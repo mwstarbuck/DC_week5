@@ -7,3 +7,14 @@ Features:
 
 
 -moble repsonsive
+
+
+COFFEE APP
+Features:
+- view all orders
+
+- create order with email and order descriptions
+
+- search order by email
+
+- delete order by email

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Coffee Shack</h1>
+        <div id="headLine"></div>
+        <h3>Craft Coffee Made to Order</h3>
+    </div>
+    <div id="container">
+        <div id="viewAllBox">
+            <h4>View All Orders</h4>
+            <button id="buttonGET">View All Orders</button>
+        </div>
+        </br>
+        <div id="addOrderDiv">
+            <h4>Add An Order</h4>
+            <button id="buttonPOST">Add Order</button>
+            <input type="text" value="email address" onfocus="this.value=''" id="emailTxtBox">
+            <input type="text" value="Enter order" onfocus="this.value=''" onfocus=" " id="orderTxtBox">
+        </div>
+        </br>
+        <div id="findBox">
+            <h4>Find Order</h4>
+            <button id="getByEmailBtn">Get Order by Email</button>
+            <input type="text" value="Enter email to find order" onfocus="this.value=''" onfocus=" " id="getOrderTxtBox">
+        </div>
+        <div id="deleteBox">
+            <h4>Delete Order</h4>
+            <button id="deleteByEmailBtn">Delete Order by Email</button>
+            <input type="text" value="Enter email to delete order" onfocus="this.value=''" onfocus=" " id="deleteTxtBox">
+        </div>
+    </div>
+    <h2 id="orderHead">Orders</h2>
+    <div id="line"></div>
+    <div id="coffeeBox">
+        <ul id="coffeeUL">
+
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
